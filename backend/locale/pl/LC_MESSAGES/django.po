@@ -1,0 +1,3 @@
+#: rest_framework_simplejwt:serializers.py:108
+msgid "No active account found for the given token."
+msgstr "Nie znaleziono aktywnego konta dla podanego tokena."
