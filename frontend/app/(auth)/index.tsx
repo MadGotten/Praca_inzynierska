@@ -1,4 +1,4 @@
-import { Text, TouchableOpacity, View, Image } from "react-native";
+import { Text, TouchableOpacity, View } from "react-native";
 import { Link } from "expo-router";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { defaultStyles } from "@/constants/Styles";
@@ -6,13 +6,7 @@ import { defaultStyles } from "@/constants/Styles";
 const Welcome = () => {
   return (
     <SafeAreaView style={[defaultStyles.container, { justifyContent: "center", gap: 8 }]}>
-      <View style={{ alignItems: "center", flex: 1, justifyContent: "flex-end" }}>
-        <Image
-          style={{ maxWidth: 250, maxHeight: 200 }}
-          source={require("@/assets/images/logo.png")}
-        />
-      </View>
-      <View style={{ flex: 1, gap: 8 }}>
+      <View style={{ flex: 1, gap: 8, justifyContent: "center" }}>
         <Text
           style={{
             fontSize: 24,
